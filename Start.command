@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd development
-cd ChordGen/Bin
+cd Bin
+source venv/bin/activate
 make
 
 exit 0

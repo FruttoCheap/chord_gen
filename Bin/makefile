@@ -5,5 +5,4 @@ target:
 	python3 ChordProgression.py
 	python3 Bass.py
 	rm -rf *.o gen tmp.txt
-	mv bass.mid progression.mid ../MIDI
 	exit

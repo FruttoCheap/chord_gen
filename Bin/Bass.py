@@ -24,4 +24,4 @@ for line in file:
     track.append(Message('note_on', note=notes[line[0]], velocity=100, time=0))
     track.append(Message('note_off', note=notes[line[0]], velocity=100, time=1920))
 
-mid.save("bass.mid")
+mid.save("Output/bass.mid")

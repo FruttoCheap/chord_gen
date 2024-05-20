@@ -28,4 +28,4 @@ for line in file:
         track.append(Message('note_off', note=notes[line[i]], velocity=100, time=k*1920))
         k = 0
 
-mid.save("progression.mid")
+mid.save("Output/progression.mid")
